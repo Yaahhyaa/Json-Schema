@@ -11,6 +11,6 @@ const schema = {
     additionalProperties: false
 }
 
-const data = { foo: 1, bar: "abc" }
+const data = { foo: 1, bar: "acfdfdfbc" }
 const valid = ajv.validate(schema, data)
 if (!valid) console.log(ajv.errors)
